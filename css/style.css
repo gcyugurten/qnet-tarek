@@ -49,6 +49,9 @@
   padding-left: 15px;
   display: inline-block;
 }
+.my-btn .referer {
+  font-size: 14px;
+}
 
 header {
   height: 100vh;
@@ -61,8 +64,8 @@ header .overlay {
   backdrop-filter: blur(3px);
 }
 header .overlay .top-header {
-  height: 80px;
-  line-height: 80px;
+  height: 100px;
+  line-height: 100px;
   border-bottom: 1px solid #5f5f5f;
 }
 header .overlay .top-header .logo img {
