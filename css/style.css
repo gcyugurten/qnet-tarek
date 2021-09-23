@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+@keyframes buttonToBottom {
+  100% {
+    opacity: 0;
+  }
+}
+.bg-eee {
+  background: #eee;
+}
+
+.txt-white {
+  color: #fff !important;
+}
+
+.img-rad {
+  border-radius: 30px;
+}
+
+.special-heading, .contact-form .contact-wrapper .panel .panel-heading {
+  font-size: 35px;
+  font-family: "Montserrat";
+  color: #494949;
+  font-weight: 650;
+}
+
+.my-btn {
+  padding: 10px 50px;
+  border-radius: 60px;
+  background-color: #ef6420;
+  font-size: 22px;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0px 4px 34px -6px rgba(231, 181, 181, 0.45);
+  text-decoration: none !important;
+}
+.my-btn i {
+  transition: .2s ease-in-out;
+}
+.my-btn:hover {
+  color: #fff !important;
+}
+.my-btn:hover i {
+  padding-left: 15px;
+  display: inline-block;
+}
+
+header {
+  height: 100vh;
+  background-image: url("../imgs/3.jpg");
+  background-size: cover;
+}
+header .overlay {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(3px);
+}
+header .overlay .top-header {
+  height: 80px;
+  line-height: 80px;
+  border-bottom: 1px solid #5f5f5f;
+}
+header .overlay .top-header .logo img {
+  width: 150px;
+}
+header .overlay .header-content {
+  color: #fff;
+  padding: 140px 0;
+  font-family: "Rubik";
+  font-size: 47px;
+  font-style: italic;
+  font-weight: 900;
+}
+header .overlay .header-content span {
+  color: #ef6420;
+  font-family: "Rubik";
+}
+header .overlay .to-bottom {
+  animation: buttonToBottom .9s infinite;
+}
+header .overlay .to-bottom i {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+.partners .item {
+  text-align: center;
+}
+.partners .item img {
+  width: 90px;
+  opacity: .7;
+}
+
+.about .icon i {
+  color: #ef6420;
+  font-size: 20px;
+}
+.about p {
+  padding: 10px 0;
+  color: #707070;
+  font-size: 18px;
+}
+.about iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.qnet-team {
+  background-image: url("../imgs/team.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.qnet-team .overlay {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(3px);
+}
+.qnet-team .overlay .item {
+  text-align: center;
+}
+.qnet-team .overlay .item .icon {
+  text-align: center;
+  padding: 15px 0;
+}
+.qnet-team .overlay .item .icon i {
+  font-size: 60px;
+  color: #ef6420;
+}
+.qnet-team .overlay .item .txt {
+  color: #d4d4d4;
+  font-size: 20px;
+}
+
+.manchester-partenair {
+  position: relative;
+}
+.manchester-partenair svg {
+  position: absolute;
+}
+
+.contact-form .bg-top {
+  background-image: linear-gradient(120deg, #ef6420, #ac9739);
+  height: 200px;
+}
+.contact-form .contact-wrapper .panel {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 1px -1px 17px #ccc;
+}
+.contact-form .contact-wrapper .panel.up {
+  transform: translateY(-100px);
+}
+.contact-form .contact-wrapper .panel .panel-heading {
+  font-size: 20px !important;
+}
+.contact-form .contact-wrapper form .form-control {
+  font-size: 14px;
+}
+.contact-form .contact-wrapper form input.form-control {
+  padding: 1.5rem 10px;
+}
+.contact-form .contact-wrapper form input[type="submit"] {
+  font-size: 17px !important;
+}
+.contact-form .contact-wrapper .contact-infos .box {
+  padding: 20px 0;
+}
+.contact-form .contact-wrapper .contact-infos .box:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+.contact-form .contact-wrapper .contact-infos .box .icon {
+  float: left;
+  width: 100px;
+  text-align: center;
+}
+.contact-form .contact-wrapper .contact-infos .box .icon i {
+  color: #ef6420;
+  font-size: 40px;
+}
+.contact-form .contact-wrapper .contact-infos .box .link {
+  font-size: 16px;
+  font-family: "Rubik";
+  font-weight: bold;
+}
+
+footer {
+  background-color: #242424;
+  font-family: "Rubik";
+}
+footer .logo img {
+  width: 100px;
+}
+footer .rights {
+  font-size: 14px;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
