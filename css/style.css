@@ -73,10 +73,8 @@ header .overlay .top-header .logo img {
 }
 header .overlay .header-content {
   color: #fff;
-  padding: 140px 0;
-  font-family: "Rubik";
+  font-family: "Montserrat";
   font-size: 47px;
-  font-style: italic;
   font-weight: 900;
 }
 header .overlay .header-content span {
@@ -206,6 +204,21 @@ footer .logo img {
 footer .rights {
   font-size: 14px;
   color: #fff;
+}
+
+@media (max-width: 600px) {
+  .main-header .logo img {
+    width: 60px !important;
+  }
+
+  .main-header .header-content {
+    font-size: 36px !important;
+  }
+
+  iframe {
+    width: 100% !important;
+    height: 300px !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
